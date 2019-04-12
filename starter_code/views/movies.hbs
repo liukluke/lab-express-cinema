@@ -1,7 +1,9 @@
-{{#each movies}}
-    <div>
-        <img src="{{this.image}}" alt="Movie Image">
-        <h1>{{this.title}}</h1>
-        {{!-- <a href="/albums/{{this.id}}">View Albums</a> --}}
-    </div>
-{{/each}}
+<div class="movies-container">
+    {{#each movies}}
+        <div>
+            <img src="{{this.image}}" alt="Movie Image">
+            <h1>{{this.title}}</h1>
+            {{!-- <a href="/albums/{{this.id}}">View Albums</a> --}}
+        </div>
+    {{/each}}
+</div>
